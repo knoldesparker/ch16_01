@@ -15,7 +15,7 @@ public class ex01 {
     }
 
     public static void set(LinkedIntList list, int index, int value) {
-        ListNode k = list.nodeAt(index); //Edit the ListNode method from private to public in order to use the nodeAt
+        ListNode k = list.nodeAt(index); //Edit the ListNode method from private to public in order to use the nodeAt. ListNode is used for storing a singel Note
         k.data = value;                  //Set the value at the note to the value from the method call
 
     }
