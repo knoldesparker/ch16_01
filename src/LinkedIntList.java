@@ -95,6 +95,7 @@ public class LinkedIntList {
 
     // pre : 0 <= i < size()
     // post: returns a reference to the node at the given index
+    // Edit to puplic in order to gain acses to the method
     public ListNode nodeAt(int index) {
         ListNode current = front;
         for (int i = 0; i < index; i++) {
