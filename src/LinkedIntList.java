@@ -48,7 +48,7 @@ public class LinkedIntList {
     public int indexOf(int value) {
         int index = 0;
         ListNode current = front;
-        while (current !=  null) {
+        while (current != null) {
             if (current.data == value) {
                 return index;
             }
