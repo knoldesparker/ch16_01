@@ -103,4 +103,9 @@ public class LinkedIntList {
         }
         return current;
     }
+    //Addad for assignment 5
+    //Needen to check if list contains value at set index.
+    public boolean contains(int value) {
+        return indexOf(value) >= 0;
+    }
 }
