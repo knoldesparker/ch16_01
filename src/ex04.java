@@ -17,12 +17,12 @@ public class ex04 {
     }
     public static void lastIndexOf (LinkedIntList list, int value){
     int a = 0;
-        for (int i = 0; i < list.size(); i++) {
-            if(value == list.get(i)){
-                a = i;
+        for (int i = 0; i < list.size(); i++) { //trevers whug the list
+            if(value == list.get(i)){ //This will stop on the last value on the list
+                a = i; //This will set the index of the selctet value to the int
             }
 
         }
-        System.out.println(a);
+        System.out.println(a); //prints the index of that value
     }
 }
