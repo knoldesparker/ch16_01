@@ -4,6 +4,8 @@ import java.util.*;
 
 public class LinkedIntList {
     private ListNode front;  // first value in the list
+    public ListNode back;
+    private int size;
 
     // post: constructs an empty list
     public LinkedIntList() {
@@ -19,6 +21,10 @@ public class LinkedIntList {
             count++;
         }
         return count;
+    }
+
+    public boolean isEmpty() {
+        return size == 0;
     }
 
     // pre : 0 <= index < size()
@@ -108,4 +114,5 @@ public class LinkedIntList {
     public boolean contains(int value) {
         return indexOf(value) >= 0;
     }
+
 }
