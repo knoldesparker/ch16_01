@@ -15,17 +15,17 @@ public class ex08 {
         switchPairs(list);
     }
     public static void switchPairs(LinkedIntList list){
-        System.out.println(list);
-        for (int i = 0; i < list.size(); i++) {
-            int swip = list.get(i);
-            int swap = list.get(i)+1;
+        System.out.println(list); //Prinsts the list before swap
+        for (int i = 0; i < list.size(); i++) { //Fori loop that look in the list
+            int swip = list.get(i); //adds a value to be swap
+            int swap = list.get(i)+1; //adds a second value to be swap
 
-            list.set(i+1,swip);
-            list.set(i,swap);
+            list.set(i+1,swip); //swaps the values
+            list.set(i,swap);   //swaps the values
 
             i++;
 
         }
-        System.out.println(list);
+        System.out.println(list); //prints the newly swaped list
     }
 }
