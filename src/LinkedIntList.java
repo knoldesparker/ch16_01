@@ -114,5 +114,9 @@ public class LinkedIntList {
     public boolean contains(int value) {
         return indexOf(value) >= 0;
     }
+    public void set( int index, Integer value) {
+        ListNode current = nodeAt(index);
+        current.data = value;
+    }
 
 }
