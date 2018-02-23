@@ -3,9 +3,9 @@ import java.util.LinkedList;
 import java.util.*;
 
 public class LinkedIntList {
-    private ListNode front;  // first value in the list
+    public ListNode front;  // first value in the list
     public ListNode back;
-    private int size;
+    public int size;
 
     // post: constructs an empty list
     public LinkedIntList() {
